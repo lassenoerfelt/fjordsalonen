@@ -23,8 +23,8 @@ body {
 }
 
 footer {
-	position: fixed;
-	width: 100%;
+	left: 0px;
+	bottom: 0px;
 	background-color: #ffd3e8;
 	color: black;
 	text-align: center;
@@ -337,7 +337,7 @@ th {
 	/* --- IPAD GLOBAL --- */
 
 	#facebook {
-		width: 10%;
+		width: 8%;
 	}
 
 	#nav {
@@ -482,8 +482,7 @@ th {
 	}
 
 footer {
-	position: fixed;
-	width: 100%;
+	bottom: 0px;
 	background-color: #ffd3e8;
 	color: black;
 	text-align: center;
@@ -496,6 +495,10 @@ footer {
 	margin: 1% 0 1% 0;
 	font-weight: 400;
 }
+	
+#facebook {
+	width: 6%;
+	}
 
 	/* --- DESKTOP FORSIDE ---- */
 
@@ -523,9 +526,9 @@ footer {
 	}
 
 	.profil {
-		2% 30% 2% 30%
+		margin-bottom: 2%;
 	}
-
+	
 	.profilimg {
 		width: 20%
 	}
@@ -540,7 +543,7 @@ footer {
 	table {
 		border-collapse: collapse;
 		width: 40%;
-		margin: 1% 30% 1% 30%;
+		margin: 1% 30% 2% 30%;
 	}
 
 	.td65 {
